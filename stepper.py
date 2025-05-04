@@ -63,13 +63,3 @@ def StepBBack(STEPS):
         time.sleep(DELAY)
         
     motorB.release()
-
-
-StepBFor(1000)
-time.sleep(1)
-for i in range(3):
-    StepAFor(3000)
-    time.sleep(1)
-    StepABack(3000)
-    time.sleep(1)
-StepBBack(1000)
