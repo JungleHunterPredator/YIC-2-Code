@@ -28,6 +28,14 @@ coilsB = (
     digitalio.DigitalInOut(board.D24),  # B2
 )
 
+# Motor 3
+#coilsB = (
+#    digitalio.DigitalInOut(board.D16),  # A1
+#    digitalio.DigitalInOut(board.D25),  # A2
+#    digitalio.DigitalInOut(board.D23),  # B1
+#    digitalio.DigitalInOut(board.D24),  # B2
+#)
+
 for coilB in coilsB:
     coilB.direction = digitalio.Direction.OUTPUT
 
